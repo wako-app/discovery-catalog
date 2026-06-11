@@ -1,0 +1,224 @@
+{
+  "version": 1,
+  "tabs": {
+    "foryou": {
+      "hero": {
+        "src": "trakt",
+        "user": "garycrawfordgc",
+        "slug": "latest-releases",
+        "title": { "en": "New Releases" }
+      },
+      "rows": [
+        {
+          "id": "daily-picks",
+          "src": "trakt",
+          "user": "tvgeniekodi",
+          "slug": "daily-picks",
+          "title": { "en": "Daily Picks" }
+        },
+        {
+          "id": "best-mindfucks",
+          "src": "trakt",
+          "user": "benfranklin",
+          "slug": "best-mindfucks",
+          "title": { "en": "Best Mindfucks" }
+        },
+        {
+          "id": "oscar-winners",
+          "src": "trakt",
+          "user": "thefork",
+          "slug": "academy-awards-best-picture-winners",
+          "title": { "en": "Oscar Best Picture Winners" }
+        },
+        {
+          "id": "greatest-scifi",
+          "src": "trakt",
+          "user": "codermike",
+          "slug": "100-greatest-sci-fi-movies",
+          "title": { "en": "Greatest Sci-Fi Movies" }
+        },
+        {
+          "id": "hidden-gems",
+          "src": "trakt",
+          "user": "recom273",
+          "slug": "hidden-gems",
+          "title": { "en": "Hidden Gems" }
+        },
+        {
+          "id": "true-crime",
+          "src": "trakt",
+          "user": "rizreflects",
+          "slug": "true-crime-docs-series",
+          "title": { "en": "True Crime Documentaries" }
+        },
+        {
+          "id": "feel-good",
+          "src": "trakt",
+          "user": "shana71",
+          "slug": "feel-good-movies",
+          "title": { "en": "Feel Good Movies" }
+        },
+        {
+          "id": "popular-in-your-language",
+          "src": "tmdb-discover",
+          "mediaType": "movie",
+          "params": { "withOriginalLanguage": "{contentLang}", "sortBy": "popularity.desc" },
+          "skipForContentLang": ["en"],
+          "title": { "en": "Popular in your language" }
+        }
+      ]
+    },
+    "movies": {
+      "rows": [
+        {
+          "id": "plot-twists",
+          "src": "trakt",
+          "user": "hdlists",
+          "slug": "crazy-plot-twists",
+          "type": "movie",
+          "title": { "en": "Crazy Plot Twists" }
+        },
+        {
+          "id": "a24",
+          "src": "trakt",
+          "user": "fidel-cb",
+          "slug": "a24",
+          "type": "movie",
+          "title": { "en": "A24 Films" }
+        },
+        {
+          "id": "cult-classics",
+          "src": "trakt",
+          "user": "kayaaron13",
+          "slug": "cult-classics",
+          "type": "movie",
+          "title": { "en": "Cult Classics" }
+        },
+        {
+          "id": "horror",
+          "src": "trakt",
+          "user": "movistapp",
+          "slug": "horror",
+          "type": "movie",
+          "title": { "en": "Horror" }
+        },
+        {
+          "id": "suspense-thrillers",
+          "src": "trakt",
+          "user": "majeed_pk",
+          "slug": "best-suspense-thriller-movies",
+          "type": "movie",
+          "title": { "en": "Suspense & Thrillers" }
+        },
+        {
+          "id": "rt-best-2025",
+          "src": "trakt",
+          "user": "lish408",
+          "slug": "rotten-tomatoes-best-of-2025",
+          "type": "movie",
+          "title": { "en": "Critically Acclaimed 2025" }
+        },
+        {
+          "id": "movies-2000s",
+          "src": "trakt",
+          "user": "snoak",
+          "slug": "popular-2000s-movies",
+          "type": "movie",
+          "title": { "en": "2000s Essentials" }
+        },
+        {
+          "id": "movies-90s",
+          "src": "trakt",
+          "user": "shambler74",
+          "slug": "90s-movies",
+          "type": "movie",
+          "title": { "en": "90s Classics" }
+        },
+        {
+          "id": "movies-in-your-language",
+          "src": "tmdb-discover",
+          "mediaType": "movie",
+          "params": { "withOriginalLanguage": "{contentLang}", "sortBy": "popularity.desc" },
+          "skipForContentLang": ["en"],
+          "title": { "en": "Movies in your language" }
+        }
+      ]
+    },
+    "shows": {
+      "rows": [
+        {
+          "id": "shut-up-and-watch",
+          "src": "trakt",
+          "user": "canconfirm",
+          "slug": "shut-up-and-watch",
+          "type": "show",
+          "title": { "en": "Shut Up, And Watch" }
+        },
+        {
+          "id": "bingeworthy",
+          "src": "trakt",
+          "user": "marzipan-pie",
+          "slug": "bingeworthy-tv",
+          "type": "show",
+          "title": { "en": "Bingeworthy TV" }
+        },
+        {
+          "id": "greatest-tv",
+          "src": "trakt",
+          "user": "redouaaane",
+          "slug": "rolling-stone-s-100-greatest-tv-shows-of-all-time",
+          "type": "show",
+          "title": { "en": "Greatest TV Shows of All Time" }
+        },
+        {
+          "id": "latest-netflix",
+          "src": "trakt",
+          "user": "snoak",
+          "slug": "latest-netflix-shows",
+          "type": "show",
+          "title": { "en": "Latest on Netflix" }
+        },
+        {
+          "id": "latest-apple-tv",
+          "src": "trakt",
+          "user": "snoak",
+          "slug": "latest-apple-tv-shows",
+          "type": "show",
+          "title": { "en": "Latest on Apple TV+" }
+        },
+        {
+          "id": "latest-prime",
+          "src": "trakt",
+          "user": "snoak",
+          "slug": "latest-amazon-prime-shows",
+          "type": "show",
+          "title": { "en": "Latest on Prime Video" }
+        },
+        {
+          "id": "latest-disney",
+          "src": "trakt",
+          "user": "snoak",
+          "slug": "latest-disney-shows",
+          "type": "show",
+          "title": { "en": "Latest on Disney+" }
+        },
+        {
+          "id": "latest-hbo-max",
+          "src": "trakt",
+          "user": "snoak",
+          "slug": "latest-hbo-max-shows",
+          "type": "show",
+          "title": { "en": "Latest on HBO Max" }
+        },
+        {
+          "id": "shows-in-your-language",
+          "src": "tmdb-discover",
+          "mediaType": "show",
+          "params": { "withOriginalLanguage": "{contentLang}", "sortBy": "popularity.desc" },
+          "skipForContentLang": ["en"],
+          "title": { "en": "Shows in your language" }
+        }
+      ]
+    }
+  }
+}
