@@ -8,6 +8,7 @@
         "slug": "latest-releases",
         "title": { "en": "New Releases" }
       },
+      "pools": { "themes": 3 },
       "rows": [
         { "src": "wako-api", "id": "main-pack", "path": "/discovery/packs/main" },
         {
@@ -22,6 +23,8 @@
           "src": "trakt",
           "user": "benfranklin",
           "slug": "best-mindfucks",
+          "pool": "themes",
+          "genres": ["thriller", "mystery"],
           "title": { "en": "Best Mindfucks" }
         },
         {
@@ -29,6 +32,9 @@
           "src": "trakt",
           "user": "thefork",
           "slug": "academy-awards-best-picture-winners",
+          "pool": "themes",
+          "genres": ["drama"],
+          "sort": "random",
           "title": { "en": "Oscar Best Picture Winners" }
         },
         {
@@ -36,6 +42,9 @@
           "src": "trakt",
           "user": "codermike",
           "slug": "100-greatest-sci-fi-movies",
+          "pool": "themes",
+          "genres": ["science-fiction"],
+          "sort": "random",
           "title": { "en": "Greatest Sci-Fi Movies" }
         },
         {
@@ -43,6 +52,8 @@
           "src": "trakt",
           "user": "recom273",
           "slug": "hidden-gems",
+          "pool": "themes",
+          "genres": [],
           "title": { "en": "Hidden Gems" }
         },
         {
@@ -50,6 +61,8 @@
           "src": "trakt",
           "user": "rizreflects",
           "slug": "true-crime-docs-series",
+          "pool": "themes",
+          "genres": ["documentary", "crime"],
           "title": { "en": "True Crime Documentaries" }
         },
         {
@@ -57,6 +70,9 @@
           "src": "trakt",
           "user": "shana71",
           "slug": "feel-good-movies",
+          "pool": "themes",
+          "genres": ["comedy", "romance"],
+          "sort": "random",
           "title": { "en": "Feel Good Movies" }
         },
         {
@@ -70,6 +86,7 @@
       ]
     },
     "movies": {
+      "pools": { "genres": 3 },
       "rows": [
         {
           "id": "plot-twists",
@@ -93,6 +110,9 @@
           "user": "kayaaron13",
           "slug": "cult-classics",
           "type": "movie",
+          "pool": "genres",
+          "genres": [],
+          "sort": "random",
           "title": { "en": "Cult Classics" }
         },
         {
@@ -101,6 +121,8 @@
           "user": "movistapp",
           "slug": "horror",
           "type": "movie",
+          "pool": "genres",
+          "genres": ["horror"],
           "title": { "en": "Horror" }
         },
         {
@@ -109,6 +131,8 @@
           "user": "majeed_pk",
           "slug": "best-suspense-thriller-movies",
           "type": "movie",
+          "pool": "genres",
+          "genres": ["thriller"],
           "title": { "en": "Suspense & Thrillers" }
         },
         {
@@ -125,6 +149,9 @@
           "user": "snoak",
           "slug": "popular-2000s-movies",
           "type": "movie",
+          "pool": "genres",
+          "genres": [],
+          "sort": "random",
           "title": { "en": "2000s Essentials" }
         },
         {
@@ -133,6 +160,9 @@
           "user": "shambler74",
           "slug": "90s-movies",
           "type": "movie",
+          "pool": "genres",
+          "genres": [],
+          "sort": "random",
           "title": { "en": "90s Classics" }
         },
         { "src": "wako-api", "id": "main-pack", "path": "/discovery/packs/main" },
@@ -147,6 +177,7 @@
       ]
     },
     "shows": {
+      "pools": { "evergreen": 2 },
       "rows": [
         {
           "id": "shut-up-and-watch",
@@ -154,6 +185,8 @@
           "user": "canconfirm",
           "slug": "shut-up-and-watch",
           "type": "show",
+          "pool": "evergreen",
+          "genres": [],
           "title": { "en": "Shut Up, And Watch" }
         },
         {
@@ -162,6 +195,9 @@
           "user": "marzipan-pie",
           "slug": "bingeworthy-tv",
           "type": "show",
+          "pool": "evergreen",
+          "genres": [],
+          "sort": "random",
           "title": { "en": "Bingeworthy TV" }
         },
         {
@@ -170,6 +206,9 @@
           "user": "redouaaane",
           "slug": "rolling-stone-s-100-greatest-tv-shows-of-all-time",
           "type": "show",
+          "pool": "evergreen",
+          "genres": ["drama"],
+          "sort": "random",
           "title": { "en": "Greatest TV Shows of All Time" }
         },
         { "src": "wako-api", "id": "main-pack", "path": "/discovery/packs/main" },
