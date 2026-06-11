@@ -34,7 +34,12 @@ kill switch for a dead or misbehaving source.
         // languages (e.g. an "in your language" rail is redundant in EN).
         { "id": "...", "src": "tmdb-discover", "mediaType": "movie",
           "params": { "withOriginalLanguage": "{contentLang}", "sortBy": "popularity.desc" },
-          "skipForContentLang": ["en"], "title": { "en": "..." } }
+          "skipForContentLang": ["en"], "title": { "en": "..." } },
+        // A wako-api discovery pack pointer. Expands in place into the pack's
+        // rows for THIS tab (rows resolved server-side — sources behind wako
+        // API keys, e.g. MDBList dynamic lists; titles come from the server).
+        // Removing the pointer is the kill switch for that route's traffic.
+        { "src": "wako-api", "id": "main-pack", "path": "/discovery/packs/main" }
       ]
     }
   }

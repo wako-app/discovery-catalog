@@ -9,6 +9,7 @@
         "title": { "en": "New Releases" }
       },
       "rows": [
+        { "src": "wako-api", "id": "main-pack", "path": "/discovery/packs/main" },
         {
           "id": "daily-picks",
           "src": "trakt",
@@ -134,6 +135,7 @@
           "type": "movie",
           "title": { "en": "90s Classics" }
         },
+        { "src": "wako-api", "id": "main-pack", "path": "/discovery/packs/main" },
         {
           "id": "movies-in-your-language",
           "src": "tmdb-discover",
@@ -170,46 +172,7 @@
           "type": "show",
           "title": { "en": "Greatest TV Shows of All Time" }
         },
-        {
-          "id": "latest-netflix",
-          "src": "trakt",
-          "user": "snoak",
-          "slug": "latest-netflix-shows",
-          "type": "show",
-          "title": { "en": "Latest on Netflix" }
-        },
-        {
-          "id": "latest-apple-tv",
-          "src": "trakt",
-          "user": "snoak",
-          "slug": "latest-apple-tv-shows",
-          "type": "show",
-          "title": { "en": "Latest on Apple TV+" }
-        },
-        {
-          "id": "latest-prime",
-          "src": "trakt",
-          "user": "snoak",
-          "slug": "latest-amazon-prime-shows",
-          "type": "show",
-          "title": { "en": "Latest on Prime Video" }
-        },
-        {
-          "id": "latest-disney",
-          "src": "trakt",
-          "user": "snoak",
-          "slug": "latest-disney-shows",
-          "type": "show",
-          "title": { "en": "Latest on Disney+" }
-        },
-        {
-          "id": "latest-hbo-max",
-          "src": "trakt",
-          "user": "snoak",
-          "slug": "latest-hbo-max-shows",
-          "type": "show",
-          "title": { "en": "Latest on HBO Max" }
-        },
+        { "src": "wako-api", "id": "main-pack", "path": "/discovery/packs/main" },
         {
           "id": "shows-in-your-language",
           "src": "tmdb-discover",
