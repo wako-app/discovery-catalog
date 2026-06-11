@@ -6,7 +6,9 @@
         "src": "trakt",
         "user": "tvgeniekodi",
         "slug": "trending-kids-movies",
-        "title": { "en": "Trending Kids Movies" }
+        "title": {
+          "en": "Trending Kids Movies"
+        }
       },
       "rows": [
         {
@@ -14,21 +16,30 @@
           "src": "trakt",
           "user": "giladg",
           "slug": "rotten-tomatoes-top-100-kids-family-movies",
-          "title": { "en": "Top Kids & Family Movies" }
+          "title": {
+            "en": "Top Kids & Family Movies"
+          },
+          "sort": "random"
         },
         {
           "id": "kids-shows",
           "src": "trakt",
           "user": "drinfernoo",
           "slug": "kids-shows",
-          "title": { "en": "Kids Shows" }
+          "title": {
+            "en": "Kids Shows"
+          },
+          "sort": "random"
         },
         {
           "id": "family-night",
           "src": "trakt",
           "user": "the-rewind-zone",
           "slug": "80-s-90s-movies-to-watch-with-kids",
-          "title": { "en": "Family Movie Night" }
+          "title": {
+            "en": "Family Movie Night"
+          },
+          "sort": "random"
         }
       ]
     },
@@ -40,7 +51,10 @@
           "user": "canconfirm",
           "slug": "kids",
           "type": "movie",
-          "title": { "en": "Kids Movies" }
+          "title": {
+            "en": "Kids Movies"
+          },
+          "sort": "random"
         },
         {
           "id": "trending-kids-movies",
@@ -48,7 +62,9 @@
           "user": "tvgeniekodi",
           "slug": "trending-kids-movies",
           "type": "movie",
-          "title": { "en": "Trending Kids Movies" }
+          "title": {
+            "en": "Trending Kids Movies"
+          }
         },
         {
           "id": "family-animation",
@@ -59,7 +75,9 @@
             "certification": "PG",
             "sortBy": "popularity.desc"
           },
-          "title": { "en": "Animated Family Movies" }
+          "title": {
+            "en": "Animated Family Movies"
+          }
         }
       ]
     },
@@ -71,7 +89,9 @@
           "user": "tvgeniekodi",
           "slug": "trending-kids-shows",
           "type": "show",
-          "title": { "en": "Trending Kids Shows" }
+          "title": {
+            "en": "Trending Kids Shows"
+          }
         },
         {
           "id": "top-kids-shows",
@@ -79,7 +99,10 @@
           "user": "mrspacegoose",
           "slug": "kids-top-tv-shows",
           "type": "show",
-          "title": { "en": "Top Rated Kids Shows" }
+          "title": {
+            "en": "Top Rated Kids Shows"
+          },
+          "sort": "random"
         },
         {
           "id": "little-ones",
@@ -87,7 +110,10 @@
           "user": "skita-rita91-gmail-com",
           "slug": "low-stim-low-violence-kids-shows",
           "type": "show",
-          "title": { "en": "For Little Ones" }
+          "title": {
+            "en": "For Little Ones"
+          },
+          "sort": "random"
         }
       ]
     }
