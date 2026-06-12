@@ -12,6 +12,19 @@
       },
       "rows": [
         {
+          "id": "age-picks",
+          "src": "tmdb-discover",
+          "mediaType": "movie",
+          "params": {
+            "withGenres": "10751",
+            "certification": "{maxCert}",
+            "sortBy": "popularity.desc"
+          },
+          "title": {
+            "en": "Family Favorites"
+          }
+        },
+        {
           "id": "kids-top-100",
           "src": "trakt",
           "user": "giladg",
@@ -72,7 +85,7 @@
           "mediaType": "movie",
           "params": {
             "withGenres": "16,10751",
-            "certification": "PG",
+            "certification": "{maxCert}",
             "sortBy": "popularity.desc"
           },
           "title": {
@@ -83,6 +96,18 @@
     },
     "shows": {
       "rows": [
+        {
+          "id": "kids-tv",
+          "src": "tmdb-discover",
+          "mediaType": "show",
+          "params": {
+            "withGenres": "10762",
+            "sortBy": "popularity.desc"
+          },
+          "title": {
+            "en": "Popular Kids TV"
+          }
+        },
         {
           "id": "trending-kids-shows",
           "src": "trakt",
