@@ -20,6 +20,16 @@
           "path": "/discovery/packs/main"
         },
         {
+          "id": "latest-releases",
+          "src": "trakt",
+          "user": "giladg",
+          "slug": "latest-releases",
+          "type": "movie",
+          "title": {
+            "en": "Latest Releases"
+          }
+        },
+        {
           "id": "daily-picks",
           "src": "trakt",
           "user": "tvgeniekodi",
