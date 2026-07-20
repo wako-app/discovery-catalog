@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "tabs": {
     "foryou": {
       "hero": {
@@ -11,7 +11,7 @@
         }
       },
       "pools": {
-        "themes": 3
+        "themes": 4
       },
       "rows": [
         {
@@ -20,14 +20,14 @@
           "path": "/discovery/packs/main"
         },
         {
-          "id": "daily-picks",
+          "id": "latest-releases",
           "src": "trakt",
-          "user": "tvgeniekodi",
-          "slug": "daily-picks",
+          "user": "giladg",
+          "slug": "latest-releases",
+          "type": "movie",
           "title": {
-            "en": "Daily Picks"
-          },
-          "sort": "random"
+            "en": "Latest Releases"
+          }
         },
         {
           "id": "best-mindfucks",
@@ -36,10 +36,10 @@
           "slug": "best-mindfucks",
           "pool": "themes",
           "genres": ["thriller", "mystery"],
+          "sort": "random",
           "title": {
-            "en": "Best Mindfucks"
-          },
-          "sort": "random"
+            "en": "Mind-Benders"
+          }
         },
         {
           "id": "oscar-winners",
@@ -68,14 +68,26 @@
         {
           "id": "hidden-gems",
           "src": "trakt",
-          "user": "recom273",
-          "slug": "hidden-gems",
+          "user": "_aenema",
+          "slug": "great-movies-you-may-have-never-heard-of",
           "pool": "themes",
           "genres": [],
+          "sort": "random",
           "title": {
             "en": "Hidden Gems"
-          },
-          "sort": "random"
+          }
+        },
+        {
+          "id": "psychological-thrillers",
+          "src": "trakt",
+          "user": "majeed_pk",
+          "slug": "psychological-thrillers",
+          "pool": "themes",
+          "genres": ["thriller", "mystery"],
+          "sort": "random",
+          "title": {
+            "en": "Psychological Thrillers"
+          }
         },
         {
           "id": "true-crime",
@@ -84,10 +96,10 @@
           "slug": "true-crime-docs-series",
           "pool": "themes",
           "genres": ["documentary", "crime"],
+          "sort": "random",
           "title": {
             "en": "True Crime Documentaries"
-          },
-          "sort": "random"
+          }
         },
         {
           "id": "feel-good",
@@ -99,6 +111,18 @@
           "sort": "random",
           "title": {
             "en": "Feel Good Movies"
+          }
+        },
+        {
+          "id": "based-on-true-story",
+          "src": "trakt",
+          "user": "benfranklin",
+          "slug": "based-on-a-true-story",
+          "pool": "themes",
+          "genres": ["drama"],
+          "sort": "random",
+          "title": {
+            "en": "Based on a True Story"
           }
         }
       ]
@@ -114,10 +138,10 @@
           "user": "hdlists",
           "slug": "crazy-plot-twists",
           "type": "movie",
+          "sort": "random",
           "title": {
             "en": "Crazy Plot Twists"
-          },
-          "sort": "random"
+          }
         },
         {
           "id": "a24",
@@ -125,10 +149,10 @@
           "user": "fidel-cb",
           "slug": "a24",
           "type": "movie",
+          "sort": "random",
           "title": {
             "en": "A24 Films"
-          },
-          "sort": "random"
+          }
         },
         {
           "id": "cult-classics",
@@ -151,10 +175,10 @@
           "type": "movie",
           "pool": "genres",
           "genres": ["horror"],
+          "sort": "random",
           "title": {
             "en": "Horror"
-          },
-          "sort": "random"
+          }
         },
         {
           "id": "suspense-thrillers",
@@ -164,10 +188,23 @@
           "type": "movie",
           "pool": "genres",
           "genres": ["thriller"],
+          "sort": "random",
           "title": {
             "en": "Suspense & Thrillers"
-          },
-          "sort": "random"
+          }
+        },
+        {
+          "id": "hidden-gems-movies",
+          "src": "trakt",
+          "user": "_aenema",
+          "slug": "great-movies-you-may-have-never-heard-of",
+          "type": "movie",
+          "pool": "genres",
+          "genres": [],
+          "sort": "random",
+          "title": {
+            "en": "Hidden Gems"
+          }
         },
         {
           "id": "rt-best-2025",
@@ -175,35 +212,9 @@
           "user": "lish408",
           "slug": "rotten-tomatoes-best-of-2025",
           "type": "movie",
+          "sort": "random",
           "title": {
             "en": "Critically Acclaimed 2025"
-          },
-          "sort": "random"
-        },
-        {
-          "id": "movies-2000s",
-          "src": "trakt",
-          "user": "snoak",
-          "slug": "popular-2000s-movies",
-          "type": "movie",
-          "pool": "genres",
-          "genres": [],
-          "sort": "random",
-          "title": {
-            "en": "2000s Essentials"
-          }
-        },
-        {
-          "id": "movies-90s",
-          "src": "trakt",
-          "user": "shambler74",
-          "slug": "90s-movies",
-          "type": "movie",
-          "pool": "genres",
-          "genres": [],
-          "sort": "random",
-          "title": {
-            "en": "90s Classics"
           }
         },
         {
@@ -217,11 +228,14 @@
           "mediaType": "movie",
           "params": {
             "withOriginalLanguage": "{contentLang}",
-            "sortBy": "popularity.desc"
+            "sortBy": "popularity.desc",
+            "recentDays": 730,
+            "voteCountGte": 200,
+            "voteAverageGte": 6
           },
           "skipForContentLang": ["en"],
           "title": {
-            "en": "Movies in your language"
+            "en": "Recent in your language"
           }
         }
       ]
@@ -239,10 +253,10 @@
           "type": "show",
           "pool": "evergreen",
           "genres": [],
+          "sort": "random",
           "title": {
             "en": "Shut Up, And Watch"
-          },
-          "sort": "random"
+          }
         },
         {
           "id": "bingeworthy",
@@ -255,6 +269,19 @@
           "sort": "random",
           "title": {
             "en": "Bingeworthy TV"
+          }
+        },
+        {
+          "id": "hidden-gem-shows",
+          "src": "trakt",
+          "user": "spell3ound",
+          "slug": "great-popular-shows",
+          "type": "show",
+          "pool": "evergreen",
+          "genres": [],
+          "sort": "random",
+          "title": {
+            "en": "Hidden-Gem Shows"
           }
         },
         {
@@ -281,11 +308,14 @@
           "mediaType": "show",
           "params": {
             "withOriginalLanguage": "{contentLang}",
-            "sortBy": "popularity.desc"
+            "sortBy": "popularity.desc",
+            "recentDays": 730,
+            "voteCountGte": 100,
+            "voteAverageGte": 6
           },
           "skipForContentLang": ["en"],
           "title": {
-            "en": "Shows in your language"
+            "en": "Recent in your language"
           }
         }
       ]

@@ -12,6 +12,11 @@
       },
       "rows": [
         {
+          "src": "wako-api",
+          "id": "kids-pack",
+          "path": "/discovery/packs/kids"
+        },
+        {
           "id": "age-picks",
           "src": "tmdb-discover",
           "mediaType": "movie",
@@ -59,6 +64,11 @@
     "movies": {
       "rows": [
         {
+          "src": "wako-api",
+          "id": "kids-pack",
+          "path": "/discovery/packs/kids"
+        },
+        {
           "id": "kids-movies",
           "src": "trakt",
           "user": "canconfirm",
@@ -91,11 +101,31 @@
           "title": {
             "en": "Animated Family Movies"
           }
+        },
+        {
+          "id": "new-family-movies",
+          "src": "tmdb-discover",
+          "mediaType": "movie",
+          "params": {
+            "withGenres": "10751",
+            "certification": "{maxCert}",
+            "sortBy": "popularity.desc",
+            "recentDays": 540,
+            "voteCountGte": 50
+          },
+          "title": {
+            "en": "New Family Movies"
+          }
         }
       ]
     },
     "shows": {
       "rows": [
+        {
+          "src": "wako-api",
+          "id": "kids-pack",
+          "path": "/discovery/packs/kids"
+        },
         {
           "id": "kids-tv",
           "src": "tmdb-discover",
