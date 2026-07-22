@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 3,
   "tabs": {
     "foryou": {
       "hero": {
@@ -11,7 +11,7 @@
         }
       },
       "pools": {
-        "themes": 3
+        "themes": 4
       },
       "rows": [
         {
@@ -30,26 +30,20 @@
           }
         },
         {
-          "id": "daily-picks",
-          "src": "trakt",
-          "user": "tvgeniekodi",
-          "slug": "daily-picks",
-          "title": {
-            "en": "Daily Picks"
-          },
-          "sort": "random"
-        },
-        {
           "id": "best-mindfucks",
           "src": "trakt",
           "user": "benfranklin",
           "slug": "best-mindfucks",
           "pool": "themes",
-          "genres": ["thriller", "mystery"],
+          "genres": [
+            "thriller",
+            "mystery"
+          ],
+          "sort": "random",
           "title": {
-            "en": "Best Mindfucks"
+            "en": "Mind-Benders"
           },
-          "sort": "random"
+          "years": "1990"
         },
         {
           "id": "oscar-winners",
@@ -57,11 +51,14 @@
           "user": "thefork",
           "slug": "academy-awards-best-picture-winners",
           "pool": "themes",
-          "genres": ["drama"],
+          "genres": [
+            "drama"
+          ],
           "sort": "random",
           "title": {
             "en": "Oscar Best Picture Winners"
-          }
+          },
+          "years": "1990"
         },
         {
           "id": "greatest-scifi",
@@ -69,11 +66,14 @@
           "user": "codermike",
           "slug": "100-greatest-sci-fi-movies",
           "pool": "themes",
-          "genres": ["science-fiction"],
+          "genres": [
+            "science-fiction"
+          ],
           "sort": "random",
           "title": {
             "en": "Greatest Sci-Fi Movies"
-          }
+          },
+          "years": "1990"
         },
         {
           "id": "hidden-gems",
@@ -82,10 +82,27 @@
           "slug": "hidden-gems",
           "pool": "themes",
           "genres": [],
+          "sort": "random",
           "title": {
             "en": "Hidden Gems"
           },
-          "sort": "random"
+          "years": "1990"
+        },
+        {
+          "id": "psychological-thrillers",
+          "src": "trakt",
+          "user": "majeed_pk",
+          "slug": "psychological-thrillers",
+          "pool": "themes",
+          "genres": [
+            "thriller",
+            "mystery"
+          ],
+          "sort": "random",
+          "title": {
+            "en": "Psychological Thrillers"
+          },
+          "years": "1990"
         },
         {
           "id": "true-crime",
@@ -93,11 +110,14 @@
           "user": "rizreflects",
           "slug": "true-crime-docs-series",
           "pool": "themes",
-          "genres": ["documentary", "crime"],
+          "genres": [
+            "documentary",
+            "crime"
+          ],
+          "sort": "random",
           "title": {
             "en": "True Crime Documentaries"
-          },
-          "sort": "random"
+          }
         },
         {
           "id": "feel-good",
@@ -105,11 +125,30 @@
           "user": "shana71",
           "slug": "feel-good-movies",
           "pool": "themes",
-          "genres": ["comedy", "romance"],
+          "genres": [
+            "comedy",
+            "romance"
+          ],
           "sort": "random",
           "title": {
             "en": "Feel Good Movies"
-          }
+          },
+          "years": "1990"
+        },
+        {
+          "id": "based-on-true-story",
+          "src": "trakt",
+          "user": "benfranklin",
+          "slug": "based-on-a-true-story",
+          "pool": "themes",
+          "genres": [
+            "drama"
+          ],
+          "sort": "random",
+          "title": {
+            "en": "Based on a True Story"
+          },
+          "years": "1990"
         }
       ]
     },
@@ -124,10 +163,11 @@
           "user": "hdlists",
           "slug": "crazy-plot-twists",
           "type": "movie",
+          "sort": "random",
           "title": {
             "en": "Crazy Plot Twists"
           },
-          "sort": "random"
+          "years": "1990"
         },
         {
           "id": "a24",
@@ -135,10 +175,10 @@
           "user": "fidel-cb",
           "slug": "a24",
           "type": "movie",
+          "sort": "random",
           "title": {
             "en": "A24 Films"
-          },
-          "sort": "random"
+          }
         },
         {
           "id": "cult-classics",
@@ -151,7 +191,8 @@
           "sort": "random",
           "title": {
             "en": "Cult Classics"
-          }
+          },
+          "years": "1990"
         },
         {
           "id": "horror",
@@ -160,11 +201,14 @@
           "slug": "horror",
           "type": "movie",
           "pool": "genres",
-          "genres": ["horror"],
+          "genres": [
+            "horror"
+          ],
+          "sort": "random",
           "title": {
             "en": "Horror"
           },
-          "sort": "random"
+          "years": "1990"
         },
         {
           "id": "suspense-thrillers",
@@ -173,11 +217,28 @@
           "slug": "best-suspense-thriller-movies",
           "type": "movie",
           "pool": "genres",
-          "genres": ["thriller"],
+          "genres": [
+            "thriller"
+          ],
+          "sort": "random",
           "title": {
             "en": "Suspense & Thrillers"
           },
-          "sort": "random"
+          "years": "1990"
+        },
+        {
+          "id": "hidden-gems-movies",
+          "src": "trakt",
+          "user": "_aenema",
+          "slug": "great-movies-you-may-have-never-heard-of",
+          "type": "movie",
+          "pool": "genres",
+          "genres": [],
+          "sort": "random",
+          "title": {
+            "en": "Hidden Gems"
+          },
+          "years": "1990"
         },
         {
           "id": "rt-best-2025",
@@ -185,35 +246,9 @@
           "user": "lish408",
           "slug": "rotten-tomatoes-best-of-2025",
           "type": "movie",
+          "sort": "random",
           "title": {
             "en": "Critically Acclaimed 2025"
-          },
-          "sort": "random"
-        },
-        {
-          "id": "movies-2000s",
-          "src": "trakt",
-          "user": "snoak",
-          "slug": "popular-2000s-movies",
-          "type": "movie",
-          "pool": "genres",
-          "genres": [],
-          "sort": "random",
-          "title": {
-            "en": "2000s Essentials"
-          }
-        },
-        {
-          "id": "movies-90s",
-          "src": "trakt",
-          "user": "shambler74",
-          "slug": "90s-movies",
-          "type": "movie",
-          "pool": "genres",
-          "genres": [],
-          "sort": "random",
-          "title": {
-            "en": "90s Classics"
           }
         },
         {
@@ -227,11 +262,16 @@
           "mediaType": "movie",
           "params": {
             "withOriginalLanguage": "{contentLang}",
-            "sortBy": "popularity.desc"
+            "sortBy": "popularity.desc",
+            "recentDays": 730,
+            "voteCountGte": 200,
+            "voteAverageGte": 6
           },
-          "skipForContentLang": ["en"],
+          "skipForContentLang": [
+            "en"
+          ],
           "title": {
-            "en": "Movies in your language"
+            "en": "Recent in your language"
           }
         }
       ]
@@ -249,10 +289,11 @@
           "type": "show",
           "pool": "evergreen",
           "genres": [],
+          "sort": "random",
           "title": {
             "en": "Shut Up, And Watch"
           },
-          "sort": "random"
+          "years": "1990"
         },
         {
           "id": "bingeworthy",
@@ -265,7 +306,22 @@
           "sort": "random",
           "title": {
             "en": "Bingeworthy TV"
-          }
+          },
+          "years": "1990"
+        },
+        {
+          "id": "hidden-gem-shows",
+          "src": "trakt",
+          "user": "spell3ound",
+          "slug": "great-popular-shows",
+          "type": "show",
+          "pool": "evergreen",
+          "genres": [],
+          "sort": "random",
+          "title": {
+            "en": "Hidden-Gem Shows"
+          },
+          "years": "1990"
         },
         {
           "id": "greatest-tv",
@@ -274,11 +330,14 @@
           "slug": "rolling-stone-s-100-greatest-tv-shows-of-all-time",
           "type": "show",
           "pool": "evergreen",
-          "genres": ["drama"],
+          "genres": [
+            "drama"
+          ],
           "sort": "random",
           "title": {
             "en": "Greatest TV Shows of All Time"
-          }
+          },
+          "years": "1990"
         },
         {
           "src": "wako-api",
@@ -291,11 +350,16 @@
           "mediaType": "show",
           "params": {
             "withOriginalLanguage": "{contentLang}",
-            "sortBy": "popularity.desc"
+            "sortBy": "popularity.desc",
+            "recentDays": 730,
+            "voteCountGte": 100,
+            "voteAverageGte": 6
           },
-          "skipForContentLang": ["en"],
+          "skipForContentLang": [
+            "en"
+          ],
           "title": {
-            "en": "Shows in your language"
+            "en": "Recent in your language"
           }
         }
       ]
