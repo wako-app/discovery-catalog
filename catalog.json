@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "tabs": {
     "foryou": {
       "hero": {
@@ -58,7 +58,7 @@
           "title": {
             "en": "Oscar Best Picture Winners"
           },
-          "years": "1990"
+          "years": "1980"
         },
         {
           "id": "greatest-scifi",
@@ -73,7 +73,7 @@
           "title": {
             "en": "Greatest Sci-Fi Movies"
           },
-          "years": "1990"
+          "years": "1970"
         },
         {
           "id": "hidden-gems",
@@ -91,7 +91,7 @@
         {
           "id": "psychological-thrillers",
           "src": "trakt",
-          "user": "majeed_pk",
+          "user": "kingkearney",
           "slug": "psychological-thrillers",
           "pool": "themes",
           "genres": [
@@ -192,7 +192,7 @@
           "title": {
             "en": "Cult Classics"
           },
-          "years": "1990"
+          "years": "1980"
         },
         {
           "id": "horror",
@@ -337,7 +337,7 @@
           "title": {
             "en": "Greatest TV Shows of All Time"
           },
-          "years": "1990"
+          "years": "1980"
         },
         {
           "src": "wako-api",
