@@ -35,10 +35,7 @@
           "user": "benfranklin",
           "slug": "best-mindfucks",
           "pool": "themes",
-          "genres": [
-            "thriller",
-            "mystery"
-          ],
+          "genres": ["thriller", "mystery"],
           "sort": "random",
           "title": {
             "en": "Mind-Benders"
@@ -51,9 +48,7 @@
           "user": "thefork",
           "slug": "academy-awards-best-picture-winners",
           "pool": "themes",
-          "genres": [
-            "drama"
-          ],
+          "genres": ["drama"],
           "sort": "random",
           "title": {
             "en": "Oscar Best Picture Winners"
@@ -66,9 +61,7 @@
           "user": "codermike",
           "slug": "100-greatest-sci-fi-movies",
           "pool": "themes",
-          "genres": [
-            "science-fiction"
-          ],
+          "genres": ["science-fiction"],
           "sort": "random",
           "title": {
             "en": "Greatest Sci-Fi Movies"
@@ -94,10 +87,7 @@
           "user": "kingkearney",
           "slug": "psychological-thrillers",
           "pool": "themes",
-          "genres": [
-            "thriller",
-            "mystery"
-          ],
+          "genres": ["thriller", "mystery"],
           "sort": "random",
           "title": {
             "en": "Psychological Thrillers"
@@ -110,10 +100,7 @@
           "user": "rizreflects",
           "slug": "true-crime-docs-series",
           "pool": "themes",
-          "genres": [
-            "documentary",
-            "crime"
-          ],
+          "genres": ["documentary", "crime"],
           "sort": "random",
           "title": {
             "en": "True Crime Documentaries"
@@ -125,10 +112,7 @@
           "user": "shana71",
           "slug": "feel-good-movies",
           "pool": "themes",
-          "genres": [
-            "comedy",
-            "romance"
-          ],
+          "genres": ["comedy", "romance"],
           "sort": "random",
           "title": {
             "en": "Feel Good Movies"
@@ -141,9 +125,7 @@
           "user": "benfranklin",
           "slug": "based-on-a-true-story",
           "pool": "themes",
-          "genres": [
-            "drama"
-          ],
+          "genres": ["drama"],
           "sort": "random",
           "title": {
             "en": "Based on a True Story"
@@ -201,9 +183,7 @@
           "slug": "horror",
           "type": "movie",
           "pool": "genres",
-          "genres": [
-            "horror"
-          ],
+          "genres": ["horror"],
           "sort": "random",
           "title": {
             "en": "Horror"
@@ -217,9 +197,7 @@
           "slug": "best-suspense-thriller-movies",
           "type": "movie",
           "pool": "genres",
-          "genres": [
-            "thriller"
-          ],
+          "genres": ["thriller"],
           "sort": "random",
           "title": {
             "en": "Suspense & Thrillers"
@@ -267,9 +245,7 @@
             "voteCountGte": 200,
             "voteAverageGte": 6
           },
-          "skipForContentLang": [
-            "en"
-          ],
+          "skipForContentLang": ["en"],
           "title": {
             "en": "Recent in your language"
           }
@@ -330,9 +306,7 @@
           "slug": "rolling-stone-s-100-greatest-tv-shows-of-all-time",
           "type": "show",
           "pool": "evergreen",
-          "genres": [
-            "drama"
-          ],
+          "genres": ["drama"],
           "sort": "random",
           "title": {
             "en": "Greatest TV Shows of All Time"
@@ -355,9 +329,7 @@
             "voteCountGte": 100,
             "voteAverageGte": 6
           },
-          "skipForContentLang": [
-            "en"
-          ],
+          "skipForContentLang": ["en"],
           "title": {
             "en": "Recent in your language"
           }
