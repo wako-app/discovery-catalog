@@ -32,6 +32,10 @@ kill switch for a dead or misbehaving source.
         // A TMDB discover query. `{contentLang}` resolves to the profile's
         // content language. `skipForContentLang` hides the row for those
         // languages (e.g. an "in your language" rail is redundant in EN).
+        // NEVER author `region` on a `withReleaseType` row: "in theaters" /
+        // "new on digital" only mean something in the VIEWER's country, and
+        // the client fills it from their profile locale. Writing one here
+        // pins every user to the same country's releases.
         { "id": "...", "src": "tmdb-discover", "mediaType": "movie",
           "params": { "withOriginalLanguage": "{contentLang}", "sortBy": "popularity.desc" },
           "skipForContentLang": ["en"], "title": { "en": "..." } },

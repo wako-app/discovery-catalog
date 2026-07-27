@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "tabs": {
     "foryou": {
       "hero": {
@@ -18,6 +18,47 @@
           "src": "wako-api",
           "id": "main-pack",
           "path": "/discovery/packs/main"
+        },
+        {
+          "id": "in-theaters",
+          "src": "tmdb-discover",
+          "mediaType": "movie",
+          "params": {
+            "withReleaseType": "2|3",
+            "recentDays": 90,
+            "voteCountGte": 50,
+            "sortBy": "popularity.desc"
+          },
+          "title": {
+            "en": "In theaters"
+          }
+        },
+        {
+          "id": "new-movies",
+          "src": "tmdb-discover",
+          "mediaType": "movie",
+          "params": {
+            "withReleaseType": "4|5",
+            "recentDays": 180,
+            "voteCountGte": 300,
+            "sortBy": "primary_release_date.desc"
+          },
+          "title": {
+            "en": "New releases"
+          }
+        },
+        {
+          "id": "new-shows",
+          "src": "tmdb-discover",
+          "mediaType": "show",
+          "params": {
+            "recentDays": 120,
+            "voteCountGte": 100,
+            "sortBy": "first_air_date.desc"
+          },
+          "title": {
+            "en": "New shows"
+          }
         },
         {
           "id": "latest-releases",
@@ -140,6 +181,34 @@
       },
       "rows": [
         {
+          "id": "in-theaters",
+          "src": "tmdb-discover",
+          "mediaType": "movie",
+          "params": {
+            "withReleaseType": "2|3",
+            "recentDays": 90,
+            "voteCountGte": 50,
+            "sortBy": "popularity.desc"
+          },
+          "title": {
+            "en": "In theaters"
+          }
+        },
+        {
+          "id": "new-movies",
+          "src": "tmdb-discover",
+          "mediaType": "movie",
+          "params": {
+            "withReleaseType": "4|5",
+            "recentDays": 180,
+            "voteCountGte": 300,
+            "sortBy": "primary_release_date.desc"
+          },
+          "title": {
+            "en": "New releases"
+          }
+        },
+        {
           "id": "plot-twists",
           "src": "trakt",
           "user": "hdlists",
@@ -257,6 +326,19 @@
         "evergreen": 2
       },
       "rows": [
+        {
+          "id": "new-shows",
+          "src": "tmdb-discover",
+          "mediaType": "show",
+          "params": {
+            "recentDays": 120,
+            "voteCountGte": 100,
+            "sortBy": "first_air_date.desc"
+          },
+          "title": {
+            "en": "New shows"
+          }
+        },
         {
           "id": "shut-up-and-watch",
           "src": "trakt",
